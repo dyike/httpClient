@@ -7,7 +7,7 @@ import (
 )
 
 // Request request struct.
-type Requset struct {
+type Requedt struct {
 	Method string
 	URL    string
 	Body   []byte
