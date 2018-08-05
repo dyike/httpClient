@@ -14,7 +14,7 @@ type Request struct {
 	Header http.Header
 }
 
-func DoRequst(args Request) ([]byte, error) {
+func DoRequest(args Request) ([]byte, error) {
 	client := &http.Client{}
 
 	req, err := http.NewRequest(args.Method, args.URL, bytes.NewReader(args.Body))
